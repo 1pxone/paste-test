@@ -1,0 +1,32 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container__alignItems_center {
+    align-items: center;
+}
+
+.container__alignItems_end {
+    align-items: end;
+}
+
+.container__alignItems_start {
+    align-items: start;
+}
+
+.container__justify_space-between {
+    justify-content: space-between;
+}
+
+.container__display_flex {
+    display: flex;
+}
+
+@media only screen and (max-width: 1040px) {
+    .container {
+        margin: 0 20px;
+    }
+}
+

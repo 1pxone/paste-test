@@ -1,0 +1,13 @@
+.dark {
+    --content-primary: #FFFFFF;
+    --content-primary-hover: #ABABB0;
+    --content-primary-active: rgba(171, 171, 176, 0.5);
+    --body-primary: #0A84FF;
+    --body-primary-hover: #1b8bff;
+    --body-primary-content: #FFFFFF;
+    --background-primary: rgba(39, 39, 39, 0.9);
+    --background-secondary: #272727;
+    --shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    --shadow-soft: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    --outline-primary: rgba(171, 171, 176, 0.5);
+}

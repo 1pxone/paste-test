@@ -1,0 +1,21 @@
+.menuToggle {
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    padding: 0;
+    color: var(--content-primary);
+}
+
+@media only screen and (max-width: 800px) {
+    .menuToggle {
+        width: 24px;
+        height: 60px;
+    }
+}

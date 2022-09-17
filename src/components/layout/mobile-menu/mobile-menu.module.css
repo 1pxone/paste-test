@@ -1,0 +1,9 @@
+.mobileMenu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    min-height: calc(100vh - 60px);
+    width: 100%;
+    background-color: var(--background-secondary);
+    padding: 0 20px;
+}

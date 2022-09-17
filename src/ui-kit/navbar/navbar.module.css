@@ -1,0 +1,25 @@
+.navbar {
+    min-height: 70px;
+    background-color: var(--background-primary);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(15px);
+    transition: .3s;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        min-height: 60px;
+    }
+
+    /* @FYI: Design issue (mobile navigation background changes on darkmode only) */
+    /* Changing Navbar color seems like Figma bug */
+    /*.navbar__open {*/
+    /*    transition: .3s;*/
+    /*    --background-primary: #000;*/
+    /*    --background-secondary: #000;*/
+    /*}*/
+}
+

@@ -1,0 +1,6 @@
+.delimiter {
+    height: 0;
+    width: 100%;
+    opacity: 0.4;
+    border-bottom: 1px solid var(--outline-primary);
+}

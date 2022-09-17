@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 30px;
+
+    font-family:  -apple-system, 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+
+    border: none;
+    text-align: right;
+    letter-spacing: 0.2px;
+    background-color: var(--body-primary);
+    color: var(--body-primary-content);
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: var(--body-primary-hover);
+}

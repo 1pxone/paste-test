@@ -1,0 +1,22 @@
+.box__alignItems_center {
+    align-items: center;
+}
+
+.box__alignItems_end {
+    align-items: end;
+}
+
+.box__alignItems_start {
+    align-items: start;
+}
+
+.box__justify_space-between {
+    justify-content: space-between;
+}
+
+.box__display_flex {
+    display: flex;
+}
+
+
+
